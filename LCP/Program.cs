@@ -16,6 +16,5 @@ namespace LeetCodePractice
                 Console.WriteLine(i);
             }
         }
-
     }
 }
