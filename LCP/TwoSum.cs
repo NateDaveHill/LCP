@@ -8,7 +8,7 @@ namespace LCP
 {
     public class TwoSum
     {
-        public static int[] sumUp(int[] nums, int target)
+        public int[] sumUp(int[] nums, int target)
         {
             for (int i = 0; i < nums.Length; i++)
             {

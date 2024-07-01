@@ -9,7 +9,7 @@ namespace LCP
 {
     public class PalindromeNumber
     {
-        public static bool checkIfPalindrome(int num)
+        public bool checkIfPalindrome(int num)
         {
 
             List<int> listOfInt = num.ToString()
