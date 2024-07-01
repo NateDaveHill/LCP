@@ -15,6 +15,9 @@ namespace LeetCodePractice
             {
                 Console.WriteLine(i);
             }
+
+            bool test = PalindromeNumber.checkIfPalindrome(1234);
+            Console.WriteLine(test);
         }
     }
 }
