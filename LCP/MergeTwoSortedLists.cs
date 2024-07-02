@@ -24,8 +24,11 @@ namespace LCP
         }
 
 
-        public ListNode MergeTwoSortedLists((ListNode list1, ListNode list2)
+        public ListNode mergeTwoSortedLists(ListNode list1, ListNode list2)
         {
+            ListNode newLlist;
+
+            return list1.next = list2;
         }
     }
 }
