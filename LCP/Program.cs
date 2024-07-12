@@ -53,13 +53,18 @@ namespace LeetCodePractice
             //Console.WriteLine(lengthOfLastWord.LengthOfLastWords(s));
 
             //------------------------------------------------------
-            int[] prices = new int[] { 1,2 };
-            //int[] prices = new int[] { 7, 1, 5, 3, 6, 4 };
-            //int[] prices = new int[] { 7, 6, 4, 3, 1 };
-            MaxProfitAlgo maxProfitAlgo = new MaxProfitAlgo();
+            //int[] prices = new int[] { 1,2 };
+            ////int[] prices = new int[] { 7, 1, 5, 3, 6, 4 };
+            ////int[] prices = new int[] { 7, 6, 4, 3, 1 };
+            //MaxProfitAlgo maxProfitAlgo = new MaxProfitAlgo();
 
-            int test = maxProfitAlgo.MaxProfit(prices);
-            Console.WriteLine(test);
+            //int test = maxProfitAlgo.MaxProfit(prices);
+            //Console.WriteLine(test);
+
+            //------------------------------------------------------
+            MissingNumbers missingNumbers = new MissingNumbers();
+
+            var test = missingNumbers.MissingNumber([0, 1]);
 
 
         }
