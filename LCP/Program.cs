@@ -62,10 +62,15 @@ namespace LeetCodePractice
             //Console.WriteLine(test);
 
             //------------------------------------------------------
-            MissingNumbers missingNumbers = new MissingNumbers();
+            //MissingNumbers missingNumbers = new MissingNumbers();
 
-            var test = missingNumbers.MissingNumber([0, 1]);
+            //var test = missingNumbers.MissingNumber([0, 1]);
 
+            //------------------------------------------------------
+            ReverseStrings reverseStrings = new ReverseStrings();
+            char[] test = { 'h', 'e', 'l', 'l', 'o' };
+
+            reverseStrings.ReverseString(test);
 
         }
     }
