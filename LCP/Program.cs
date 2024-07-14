@@ -75,6 +75,8 @@ namespace LeetCodePractice
             SeachInserts seachInserts = new SeachInserts();
             var test = seachInserts.SearchInsert([1, 3, 5, 6], 5);
 
+            //------------------------------------------------------
+
 
         }
     }
