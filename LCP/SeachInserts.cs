@@ -4,7 +4,17 @@ public class SeachInserts
 {
     public int SearchInsert(int[] nums, int target)
     {
-        int indexOfTarget = Array.IndexOf(nums, target);
+        //int indexOfTarget = Array.IndexOf(nums, target);
+
+        int indexOfTarget = 0;
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            if (nums[i] == target)
+            {
+                indexOfTarget = i;
+            }
+        }
 
         if (indexOfTarget == -1)
         {
