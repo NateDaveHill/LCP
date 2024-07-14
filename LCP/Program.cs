@@ -76,9 +76,10 @@ namespace LeetCodePractice
             //var test = seachInserts.SearchInsert([1, 3, 5, 6], 5);
 
             //------------------------------------------------------
-            ContainsDuplicates containsDuplicate = new ContainsDuplicates();
+            //ContainsDuplicates containsDuplicate = new ContainsDuplicates();
 
-            bool test = containsDuplicate.ContainsDuplicate([1, 2, 3, 1]);
+            //bool test = containsDuplicate.ContainsDuplicate([1, 2, 3, 1]);
+            //------------------------------------------------------
 
         }
     }
