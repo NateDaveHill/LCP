@@ -67,10 +67,14 @@ namespace LeetCodePractice
             //var test = missingNumbers.MissingNumber([0, 1]);
 
             //------------------------------------------------------
-            ReverseStrings reverseStrings = new ReverseStrings();
-            char[] test = { 'h', 'e', 'l', 'l', 'o' };
+            //ReverseStrings reverseStrings = new ReverseStrings();
+            //char[] test = { 'h', 'e', 'l', 'l', 'o' };
 
-            reverseStrings.ReverseString(test);
+            //reverseStrings.ReverseString(test);
+            //------------------------------------------------------
+            SeachInserts seachInserts = new SeachInserts();
+            var test = seachInserts.SearchInsert([1, 3, 5, 6], 5);
+
 
         }
     }
