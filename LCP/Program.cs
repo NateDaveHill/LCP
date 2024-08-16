@@ -81,6 +81,10 @@ namespace LeetCodePractice
             //bool test = containsDuplicate.ContainsDuplicate([1, 2, 3, 1]);
             //------------------------------------------------------
 
+            PowerOfTwo powerOfTwo = new PowerOfTwo();
+
+            var test = powerOfTwo.IsPowerOfTwo(3);
+
         }
     }
 }
